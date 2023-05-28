@@ -1,0 +1,31 @@
+@media(min-width: 768px) {
+    .contenido-ventajas{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+    }
+}
+
+.ventajas {
+    background-color: var(--azulOscuro);
+    padding: 3rem;
+}
+
+.ventaja {
+    color: var(--blanco);
+    text-align: center;
+    margin: 5rem;
+}
+
+.ventaja i {
+    font-size: 5rem;
+}
+
+.ventaja h3 {
+    font-size: 6rem;
+    font-family: var(--titulos);
+}
+
+.ventaja p {
+    font-size: 2rem;
+}

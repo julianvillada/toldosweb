@@ -1,0 +1,119 @@
+
+.encabezado {
+    background-image: url('../../../public/img/pergola6.JPG');
+    height: 100vh;
+    min-height: 70rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+  }
+
+  /*efecto parallax solo cuando se usa en pc o tableta efecto scroll*/
+  @media(min-width: 768px) {
+    .encabezado {
+      background-attachment: fixed;
+    }
+  }
+
+  .titulo-p {
+    text-align: right;
+    margin:0%;
+  }
+
+  .encabezado::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0 ,.5);
+    z-index: -1;
+  }
+
+  .logo h2 {
+    font-size: 5rem ;
+  }
+
+  .logo h2 span {
+    color: var(--azulClaro);
+  }
+
+  .contenedor-navegacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--blanco);
+    box-shadow: 10px 10px 16px -6px rgba(0,0,0 ,0.45);
+
+    /*barra de navegacion fija*/
+    position: fixed;
+    width: 100%;
+    border-radius: 5rem;
+    margin-top: 2rem;
+  }
+
+
+  .navegacion {
+    background-color: var(--blanco);
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width: 100%;
+    animation: desplazamiento .5s ease-in-out;
+
+    /* text-align: center; */
+    /* height: 100vh; */
+  }
+
+  .navegacion a {
+    display: block;
+    font-size: 2rem ;
+    padding: 1.1rem;
+    text-decoration: none;
+    color: var(--oscuro);
+    transition: background-color .3s ease-in-out;
+  }
+
+  
+  @media(min-width: 768px ) {
+    .ocultar{
+      display: inline;
+    }
+  }
+
+
+.navegacion a:hover {
+  background-color: var(--azulClaro);
+  color: var(--blanco);
+}
+
+
+
+@media(min-width: 768px) {
+  .navegacion a{
+    display: inline;
+  }
+}
+
+
+@media(min-width: 768px) {
+  .navegacion {
+    position: relative;
+    top: unset;
+    width: auto;
+    background-color: unset;
+    animation: unset;
+  }
+}
+
+
+@media(min-width: 768px){
+  .hamburguesa{
+    display: none;
+  }
+
+}
+
