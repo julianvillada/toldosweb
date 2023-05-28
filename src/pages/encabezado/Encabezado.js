@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
+
 import Hamburger from 'hamburger-react'
-import './EncabezadoStyle.css';
 import { SeccionUno } from '../seccionUno/SeccionUno';
 import { InfoVentajas } from '../infoVentajas/InfoVentajas';
 import { Nosotros } from '../nosotros/Nosotros';
 import { Servicios } from '../servicios/Servicios';
 import { Footer } from '../footer/Footer';
 import { Contacto } from '../contacto/Contacto';
+
+import './EncabezadoStyle.css';
 
 
 export const Encabezado = () => {

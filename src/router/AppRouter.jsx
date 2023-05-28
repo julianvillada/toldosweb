@@ -10,8 +10,6 @@ export const AppRouter = () => {
             <Route path='encabezado' element = {<Encabezado/>}/>
             <Route path='seccionUno' element = {<SeccionUno/>}/>
         </Routes>
-
-
     </div>
   )
 }
