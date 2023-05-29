@@ -75,6 +75,8 @@
     text-decoration: none;
     color: var(--oscuro);
     transition: background-color .3s ease-in-out;
+    border-radius: 5rem;
+    margin: 1rem;
   }
 
   
