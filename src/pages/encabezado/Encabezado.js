@@ -72,6 +72,7 @@ cerrarMenu();
           </div>
           <SeccionUno/>
           <InfoVentajas/>
+            /* aqui meteria fotos*/
           <Nosotros/>
           <Servicios/>
           <Contacto/>
