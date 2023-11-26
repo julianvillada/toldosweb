@@ -49,7 +49,7 @@ cerrarMenu();
         <header className='encabezado' id='inicio'>
            <div className="contenedor-navegacion">
               <div className='logo'>
-                <h2>Toldos <span>Galaxy </span></h2>
+                <h2>Toldos <span>Solespa </span></h2>
                 <p className='titulo-p'>Especialistas en Toldos</p>
               </div>
 
