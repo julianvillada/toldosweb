@@ -19,7 +19,7 @@
 .texto-encabezado h1 {
  font-size: 5rem;
  text-align: center;
- color: var(--blanco);
+ color: var(--crema);
  padding-top:80px ;
 } 
 
@@ -32,7 +32,7 @@
 }
 
 .formulario-seccionUno {
-    background-color: var(--blanco);
+    background-color: var(--crema);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,6 +44,7 @@
     font-size: 6rem;
     text-align: center;
     margin-top: 0;
+    color: var(--ral7016);
 }
 
 @media(min-width: 768px) {

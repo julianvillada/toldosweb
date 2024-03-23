@@ -18,20 +18,26 @@ export const SeccionUno = () => {
           <h2>Agenda una cita con nosotros</h2>
 
             <div className='input-seccionUno'>
-              <input type={'text'} placeholder={'nombrre'}/>
+              <input type={'text'} placeholder={'nombre'}/>
             </div>
 
             
             <div className='input-seccionUno'>
-              <input type={'mail'} placeholder={'corrreo'}/>
+              <input type={'mail'} placeholder={'coreo'}/>
             </div>
 
             
             <div className='input-seccionUno'>
-              <input type={'tel'} placeholder={'telefono'}/>
+              <input type={'number'} placeholder={'telefono'}/>
             </div>
 
-            <MyButton variant='pink-sky'>Contactar</MyButton>
+            
+            <div className='input-seccionUno'>
+              <h2>danos un poco de información</h2>
+              <textarea type={'text'}/>
+            </div>
+
+            <MyButton variant='pink-or'>Contactar</MyButton>
             
         </form>
         

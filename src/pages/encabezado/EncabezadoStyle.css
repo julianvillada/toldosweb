@@ -38,14 +38,18 @@
   }
 
   .logo h2 span {
-    color: var(--azulClaro);
+    color: var(--mostaza);
+  }
+
+  .logo p {
+    color: var(--crema);
   }
 
   .contenedor-navegacion {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--blanco);
+    background-color: var(--ral7016);
     box-shadow: 10px 10px 16px -6px rgba(0,0,0 ,0.45);
 
     /*barra de navegacion fija*/
@@ -57,7 +61,7 @@
 
 
   .navegacion {
-    background-color: var(--blanco);
+    background-color: var(--mostaza);
     position: absolute;
     left: 0;
     top: 70px;
@@ -68,12 +72,13 @@
     /* height: 100vh; */
   }
 
+
   .navegacion a {
     display: block;
     font-size: 2rem ;
     padding: 1.1rem;
     text-decoration: none;
-    color: var(--oscuro);
+    color: var(--crema);
     transition: background-color .3s ease-in-out;
     border-radius: 5rem;
     margin: 1rem;
@@ -88,8 +93,8 @@
 
 
 .navegacion a:hover {
-  background-color: var(--azulClaro);
-  color: var(--blanco);
+  background-color: var(--mostaza);
+  color: var(--ral7016);
 }
 
 

@@ -11,7 +11,7 @@ export const Nosotros = () => {
                 <h3>Transformamos tu espacio</h3>
                 <p>Eficiencia en la compra: En nuestra empresa,
                    nos enfocamos en brindar a nuestros clientes una experiencia de compra rápida y sencilla. </p>
-                   <MyButton variant='pink-sky' size={280}>
+                   <MyButton variant='blue-sky' size={280}>
                     Saber mas
                    </MyButton>
             </div>

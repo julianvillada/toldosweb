@@ -7,22 +7,23 @@
 }
 
 .ventajas {
-    background-color: var(--azulOscuro);
+    background-color: var(--ral7016);
     padding: 3rem;
 }
 
 .ventaja {
-    color: var(--blanco);
+    color: var(--crema);
     text-align: center;
     margin: 5rem;
 }
 
 .ventaja i {
     font-size: 5rem;
+    color: var(--mostaza);
 }
 
 .ventaja h3 {
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: var(--titulos);
 }
 

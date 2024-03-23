@@ -1,8 +1,8 @@
 body {
-  --oscuro:#07070A;
-  --azulOscuro: #0A1128;
-  --azulClaro:#006FE6;
-  --blanco: #FEFCFB;
+  --oscuro:color rgb(42, 59, 70);
+  --ral7016: rgb(42, 59, 70);
+  --mostaza: rgb(248,206,88);
+  --crema: rgb(242,239,227);
   --titulos: 'Baloo 2' , cursive; 
   --parrafos: 'Montserrat' , sans-serif;
   font-size: 1.6rem;
