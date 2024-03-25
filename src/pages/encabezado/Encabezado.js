@@ -49,13 +49,14 @@ cerrarMenu();
         <header className='encabezado' id='inicio'>
            <div className="contenedor-navegacion">
               <div className='logo'>
-                <h2> <span>Solespa </span> </h2>
+                <h2> <span>APEN </span> </h2>
                 <p className='titulo-p'>Especialistas en Toldos</p>
               </div>
 
               <nav className= { `navegacion ${ menu ? 'ocultar' : ''}`}>
                 <a href='#inicio'>Inicio</a>
-                <a href='#nosotros'>Nosotros</a>
+                <a href='#nosotros'>Empresa</a>
+                <a href='#productos'>Productos</a>
                 <a href='#servicios'>Servicios</a>
                 <a href='#contacto'>Contacto</a>
               </nav>
@@ -72,7 +73,6 @@ cerrarMenu();
           </div>
           <SeccionUno/>
           <InfoVentajas/>
-            /* aqui meteria fotos*/
           <Nosotros/>
           <Servicios/>
           <Contacto/>

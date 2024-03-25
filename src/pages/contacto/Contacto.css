@@ -1,4 +1,8 @@
 .contacto-empresa{
-    color: var(--mostaza);
     background-color: var(--crema);
+}
+
+.contacto-empresaListas {
+    display: flex;
+    justify-content: space-around;
 }

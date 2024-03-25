@@ -16,7 +16,7 @@ export const Footer = () => {
 
     <div className='footer' id='contacto'>
         <div className='logo'>
-            <h2>Toldos<span>Solespa</span></h2>
+            <h2>Apen<span>Soluciones</span></h2>
             <p>Todos los derechos reservados <span className='fecha'></span> &copy; By Toldos Galaxy</p>
         </div>
     </div>
